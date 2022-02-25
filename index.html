@@ -11,41 +11,108 @@
       <div class="row">
         <!-- bar chart options -->
         <div class="col-sm-4">
-          <h3>Chart Settings</h3>
+          <h3 class="text-center">Chart Settings</h3>
           <form>
             <!-- bar spacing -->
-            <div class="row">
+            <div class="form-group">
               <h5>Bar Spacing</h5>
+              <div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option1" autocomplete="off"> None
+                </label>
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" id="option2" autocomplete="off" checked> Small
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Large
+                </label>
+              </div>
             </div>
 
             <!-- bar color -->
-            <div class="row">
+            <div class="form-group">
               <h5>Bar Color</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item" href="#">Orange</a>
+                  <a class="dropdown-item" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Green</a>
+                  <a class="dropdown-item" href="#">Violet</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                </div>
+              </div>
             </div>
 
             <!-- labels -->
-            <div class="row">
+            <div class="form-group">
               <h5>Labels</h5>
+              <input type="text" class="form-control">
             </div>
 
             <!-- label color -->
-            <div class="row">
+            <div class="form-group">
               <h5>Label Color</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item" href="#">Orange</a>
+                  <a class="dropdown-item" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Green</a>
+                  <a class="dropdown-item" href="#">Violet</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                </div>
+              </div>
             </div>
 
             <!-- title -->
-            <div class="row">
+            <div class="form-group">
               <h5>Title</h5>
+              <input type="text" class="form-control">
             </div>
 
             <!-- title size -->
-            <div class="row">
+            <div class="form-group">
               <h5>Title Size</h5>
+              <div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option1" autocomplete="off"> None
+                </label>
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" id="option2" autocomplete="off" checked> Small
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Large
+                </label>
+              </div>
             </div>
 
             <!-- title color -->
-            <div class="row">
+            <div class="form-group">
               <h5>Title Color</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item" href="#">Orange</a>
+                  <a class="dropdown-item" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Green</a>
+                  <a class="dropdown-item" href="#">Violet</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg">Create</button>
             </div>
           </form>
         </div>
